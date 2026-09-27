@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">ClubDeportivoTeam5Kotlin</string>
+    <string name="simular_escaneo_qr">Simular Escaneo QR</string>
+    <string name="listado_de_vencidos">Listado de Vencidos</string>
+    <string name="cargando_lista">Cargando lista...</string>
+    <string name="notificar_vencidos">Notificar Vencidos</string>
+    <string name="logo_club_deportivo">Logo Club Deportivo</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="pagar">Pagar</string>
+    <string name="cuotas">Cuotas:</string>
+    <string name="c_digo_cvc">Código CVC</string>
+    <string name="n_mero_de_tarjeta_16_d_gitos">Número de Tarjeta (16 dígitos)</string>
+    <string name="tarjeta_de_cr_dito">Tarjeta de Crédito</string>
+    <string name="xito">Éxito</string>
+    <string name="registro_exitoso">Registro Exitoso</string>
+    <string name="volver_al_men">Volver al Menú</string>
+    <string name="continuar">Continuar</string>
+    <string name="cargar_foto">Cargar Foto</string>
+    <string name="carga_apto_f_sico_obligatorio">Carga Apto Físico (Obligatorio)</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="dni">DNI</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="pantalla_de_configuraci_n">Pantalla de Configuración</string>
+    <string name="generar_qr_de_pago">Generar QR de Pago</string>
+    <string name="efectivo">Efectivo</string>
+    <string name="tarjeta_de_d_bito">Tarjeta de Débito</string>
+    <string name="dni_de_la_persona">DNI de la Persona</string>
+    <string name="seleccione_medio_de_pago">Seleccione Medio de Pago:</string>
+    <string name="buscar_pago">Buscar Pago</string>
+    <string name="ingrese_dni_del_socio">Ingrese DNI del Socio</string>
+    <string name="buscar_y_generar">Buscar y Generar</string>
+    <string name="generar_carnet">Generar Carnet</string>
+    <string name="enviar_carnet">Enviar Carnet</string>
+    <string name="socio_cargando_nestado_al_d_a">Socio: Cargando...\nEstado: Al Día</string>
+    <string name="c_digo_qr">Código QR</string>
+    <string name="carnet_generado">Carnet Generado</string>
+    <string name="cargar_pago">💲 Cargar Pago</string>
+    <string name="registrar_persona">👤 Registrar Persona</string>
+    <string name="registrar_asistencia">📷 Registrar Asistencia</string>
+    <string name="listado_vencidos">📋 Listado Vencidos</string>
+    <string name="crear_carnet">🪪 Crear Carnet</string>
+    <string name="men_principal">Menú Principal</string>
+
+    <!-- Arreglo de opciones para el Spinner de Cuotas -->
+    <string-array name="opciones_cuotas">
+        <item>1 pago sin interés</item>
+        <item>3 cuotas sin interés</item>
+        <item>6 cuotas sin interés</item>
+    </string-array>
+
+    <!-- Arreglos opcionales para los registros -->
+    <string-array name="tipos_persona">
+        <item>Socio</item>
+        <item>No Socio</item>
+    </string-array>
+
+    <string-array name="lista_actividades">
+        <item>Musculación</item>
+        <item>Natación</item>
+        <item>Spinning</item>
+        <item>Yoga</item>
+        <item>Tenis</item>
+    </string-array>
+</resources>

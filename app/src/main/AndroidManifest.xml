@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FaseInicialConsulta">
+        <activity
+            android:name=".ActivityCrearCarnet"
+            android:exported="false" />
+        <activity
+            android:name=".Strings"
+            android:exported="false" />
+        <activity
+            android:name=".NotificacionEnviadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoVencidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsistenciaExitoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsistenciaResultadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsistenciaEscanerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsistenciasMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagoExitoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QRPagoPantallaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenerarQRPagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagoEfectivoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagoDebitoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PagoCreditoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarPagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnviarCarnetExitoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnviarCarnetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarSocioCarnetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroExitoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroMembresiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroPersonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SocioRepository"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

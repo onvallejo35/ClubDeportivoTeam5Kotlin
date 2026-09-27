@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tarjeta_de_cr_dito"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etNumTarjetaCredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/n_mero_de_tarjeta_16_d_gitos"
+        android:inputType="number"
+        android:maxLength="16"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etCvcCredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/c_digo_cvc"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuotas"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spCuotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/opciones_cuotas"
+        android:minHeight="48dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnConfirmarCredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pagar"
+        android:backgroundTint="#2E7D32"
+        android:padding="14dp" />
+
+</LinearLayout>
